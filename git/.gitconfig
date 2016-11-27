@@ -1,0 +1,9 @@
+[core]
+    editor = vim
+[user]
+    name = Daniel Tsai
+    email = galoistsai@gmail.com
+[color]
+    ui = auto
+[commit]
+    template = /home/tsaicw/.git-template

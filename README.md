@@ -1,2 +1,2 @@
-# config-files
-Configuration files.
+git: Configuration for git.
+vim: Configuration for Vim.
