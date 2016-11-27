@@ -1,2 +1,4 @@
-git: Configuration for git.
-vim: Configuration for Vim.
+## git
+Configuration for git.
+## vim
+Configuration for Vim.
