@@ -64,4 +64,6 @@ set t_Co=16
 let g:solarized_termcolors=256
 colorscheme solarized
 
-let g:NERDSpaceDelims = 1
+" NERD Commenter
+let g:NERDSpaceDelims = 1        " Add spaces after comment delimiters by default
+let g:NERDDefaultAlign = 'left'  " Align line-wise comment delimiters flush left instead of following code indentation
