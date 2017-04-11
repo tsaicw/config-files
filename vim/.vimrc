@@ -33,26 +33,29 @@ Plugin 'scrooloose/nerdtree'
 " integration of Scala into vim.
 Plugin 'derekwyatt/vim-scala'
 
+" ansible syntax highlighting
+Plugin 'pearofducks/ansible-vim'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 
-syntax on       " turn on color syntax highlighting
-set expandtab   " replace Tab by Spaces
-set tabstop=4   " number of Spaces corresponding to Tab
-set number      " show line number (abbrev: nu)
-set cursorline  " underline current line
+syntax on             " turn on color syntax highlighting
+set expandtab         " replace Tab by Spaces
+set tabstop=4         " number of Spaces corresponding to Tab
+set number            " show line number (abbrev: nu)
+set cursorline        " underline current line
 set enc=utf8
-set hls         " Highlight all search
-set ai          " autoindent
-set incsearch   " display the search result while key in the keyword
+set hls               " Highlight all search
+set ai                " autoindent
+set incsearch         " display the search result while key in the keyword
+set pastetoggle=<F3>  " set the paste mode toggle hot key
 
 filetype plugin indent on " how indent according file type
 hi LineNr cterm=bold ctermfg=DarkGrey ctermbg=NONE
 hi CursorLineNr cterm=bold ctermfg=Green ctermbg=NONE
 
-
 " monokai color scheme
-" colorscheme monokai
+"colorscheme monokai
 
 " solarized color scheme
 set background=dark
