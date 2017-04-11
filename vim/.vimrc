@@ -29,6 +29,7 @@ Plugin 'VundleVim/Vundle.vim'
 
 " A tree explorer plugin for vim.
 Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/nerdcommenter'
 
 " integration of Scala into vim.
 Plugin 'derekwyatt/vim-scala'
@@ -57,9 +58,10 @@ hi CursorLineNr cterm=bold ctermfg=Green ctermbg=NONE
 " monokai color scheme
 "colorscheme monokai
 
-" solarized color scheme
+" solarized
 set background=dark
 set t_Co=16
 let g:solarized_termcolors=256
 colorscheme solarized
 
+let g:NERDSpaceDelims = 1
