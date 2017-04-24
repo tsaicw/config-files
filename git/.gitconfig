@@ -5,5 +5,7 @@
     email = galoistsai@gmail.com
 [color]
     ui = auto
+[alias]
+    logk = log --decorate --graph --oneline
 [commit]
     template = /home/tsaicw/.git-template
