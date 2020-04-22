@@ -31,6 +31,13 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/nerdcommenter'
 
+" Lean & mean status/tabline for vim.
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+
+" A premier Vim plugin for Git
+Plugin 'tpope/vim-fugitive'
+
 " integration of Scala into vim.
 Plugin 'derekwyatt/vim-scala'
 
@@ -50,6 +57,7 @@ set hls               " Highlight all search
 set ai                " autoindent
 set incsearch         " display the search result while key in the keyword
 set pastetoggle=<F3>  " set the paste mode toggle hot key
+set foldmethod=syntax " set how fold a block
 
 filetype plugin indent on " how indent according file type
 hi LineNr cterm=bold ctermfg=DarkGrey ctermbg=NONE
@@ -67,3 +75,8 @@ colorscheme solarized
 " NERD Commenter
 let g:NERDSpaceDelims = 1        " Add spaces after comment delimiters by default
 let g:NERDDefaultAlign = 'left'  " Align line-wise comment delimiters flush left instead of following code indentation
+
+" Airline
+let g:airline#extensions#tabline#enabled = 1
+"let g:airline#extensions#tabline#left_sep = ' '
+"let g:airline#extensions#tabline#left_alt_sep = '|'
