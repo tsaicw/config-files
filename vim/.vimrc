@@ -41,6 +41,9 @@ Plugin 'tpope/vim-fugitive'
 " integration of Scala into vim.
 Plugin 'derekwyatt/vim-scala'
 
+" integration of golang into vim.
+Plugin 'fatih/vim-go'
+
 " ansible syntax highlighting
 Plugin 'pearofducks/ansible-vim'
 
