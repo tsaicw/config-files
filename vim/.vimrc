@@ -38,14 +38,17 @@ Plugin 'vim-airline/vim-airline-themes'
 " A premier Vim plugin for Git
 Plugin 'tpope/vim-fugitive'
 
-" integration of Scala into vim.
+" Integration of Scala into vim.
 Plugin 'derekwyatt/vim-scala'
 
-" integration of golang into vim.
+" Integration of golang into vim.
 Plugin 'fatih/vim-go'
 
-" ansible syntax highlighting
+" Ansible syntax highlighting
 Plugin 'pearofducks/ansible-vim'
+
+" DirDiff plugin for Vim
+Plugin 'will133/vim-dirdiff'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
