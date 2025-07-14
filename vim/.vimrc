@@ -22,7 +22,7 @@ set foldmethod=syntax " set how fold a block
 filetype plugin indent on
 
 " ------ Plugin Manager ------
-" Default plugins install path: '~/.vim/plugged'
+" Default plugins path: '~/.vim/plugged'
 call plug#begin()
 
 " ------ Plugins ------
@@ -35,13 +35,9 @@ Plug 'sheerun/vim-polyglot'
 " Plug 'psf/black', { 'do': ':BlackInstall' }
 Plug 'davidhalter/jedi-vim'
 
-" A tree explorer plugin
+" File system explorer
 Plug 'preservim/nerdtree'
 Plug 'preservim/nerdcommenter'
-
-" Lean & mean status/tabline
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
 
 " Integration
 Plug 'tpope/vim-fugitive'  " Git
@@ -49,9 +45,15 @@ Plug 'tpope/vim-fugitive'  " Git
 "Plug 'fatih/vim-go'
 Plug 'pearofducks/ansible-vim'
 
-" DirDiff plugin for Vim
+" Lean & mean status/tabline
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
+" Miscellaneous
 Plug 'jiangmiao/auto-pairs'
 Plug 'will133/vim-dirdiff'
+" Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+" Plug 'skywind3000/vim-terminal-help'
 
 " Color schemes
 Plug 'morhetz/gruvbox'
@@ -66,11 +68,13 @@ hi LineNr cterm=bold ctermfg=DarkGrey ctermbg=NONE
 hi CursorLineNr cterm=bold ctermfg=Green ctermbg=NONE
 
 " NERD Tree & Commenter
-" let NERDTreeShowHidden = 1
+let NERDTreeShowHidden = 1
 let g:NERDSpaceDelims = 1        " Add spaces after comment delimiters by default
 let g:NERDDefaultAlign = 'left'  " Align line-wise comment delimiters flush left instead of following code indentation
 
 " Airline
+let g:airline_theme = 'bubblegum'
+let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 "let g:airline#extensions#tabline#left_sep = ' '
 "let g:airline#extensions#tabline#left_alt_sep = '|'

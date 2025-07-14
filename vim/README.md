@@ -31,21 +31,31 @@
 * [coc.nvim](https://github.com/neoclide/coc.nvim) - Make your Vim/Neovim as smart as VS Code
 * [ale](https://github.com/dense-analysis/ale) - Asynchronous Lint Engine
 * [vim-polyglot](https://github.com/sheerun/vim-polyglot)
-* [jedi-vim](https://github.com/davidhalter/jedi-vim) - awesome Python autocompletion
-* [Black](https://github.com/psf/black) - the uncompromising Python code formatter
-* [nerdtree](https://github.com/preservim/nerdtree) - is a file system explorer for the Vim editor
-* [nerdcommenter](https://github.com/preservim/nerdcommenter)
-* [vim-fugitive](https://github.com/tpope/vim-fugitive) -  the premier Vim plugin for Git
-* [vim-go](https://github.com/fatih/vim-go) - Go language support
-* [ansible-vim](https://github.com/pearofducks/ansible-vim) - syntax plugin for Ansible 2.x
-* [vim-scala](https://github.com/derekwyatt/vim-scala)
-* [auto-pairs](https://github.com/jiangmiao/auto-pairs) - Insert or delete brackets, parens, quotes in pair
-* [vim-dirdiff](https://github.com/will133/vim-dirdiff) - DirDiff plugin for Vim
-* [vim-visual-multi](https://github.com/mg979/vim-visual-multi) - multiple cursors
-
-## Color Schemes
-* [gruvbox](https://github.com/morhetz/gruvbox)
-* [onedark.vim](https://github.com/joshdick/onedark.vim)
-* [Dracula](https://github.com/dracula/vim)
-* [Nord Vim](https://github.com/nordtheme/vim)
-* [Solarized](https://github.com/altercation/vim-colors-solarized)
+* [jedi-vim](https://github.com/davidhalter/jedi-vim) - Awesome Python autocompletion
+* [Black](https://github.com/psf/black) - The uncompromising Python code formatter
+* [vim-autoformat](https://github.com/vim-autoformat/vim-autoformat)
+* File system explorer
+  * [nerdtree](https://github.com/preservim/nerdtree) - A file system explorer for the Vim editor
+  * [nerdcommenter](https://github.com/preservim/nerdcommenter)
+  * [coc-explorer](https://github.com/weirongxu/coc-explorer)
+  * [fern.vim](https://github.com/lambdalisue/vim-fern)
+* Integration
+  * [vim-fugitive](https://github.com/tpope/vim-fugitive) -  Rhe premier Vim plugin for Git
+  * [vim-go](https://github.com/fatih/vim-go) - Go language support
+  * [ansible-vim](https://github.com/pearofducks/ansible-vim) - Syntax plugin for Ansible 2.x
+  * [vim-scala](https://github.com/derekwyatt/vim-scala)
+* Statusline
+  * [vim-airline](https://github.com/vim-airline/vim-airline) - Lean & mean status/tabline for vim that's light as air
+  * [vim-airline-themes](https://github.com/vim-airline/vim-airline-themes) - The official theme repository for vim-airline
+  * [lightline.vim](https://github.com/itchyny/lightline.vim) - A light and configurable statusline/tabline
+* Miscellaneous
+  * [auto-pairs](https://github.com/jiangmiao/auto-pairs) - Insert or delete brackets, parens, quotes in pair
+  * [vim-dirdiff](https://github.com/will133/vim-dirdiff) - DirDiff plugin for Vim
+  * [vim-visual-multi](https://github.com/mg979/vim-visual-multi) - Multiple cursors
+  * [vim-terminal-help](https://github.com/skywind3000/vim-terminal-help)
+* Color schemes
+  * [gruvbox](https://github.com/morhetz/gruvbox)
+  * [onedark.vim](https://github.com/joshdick/onedark.vim)
+  * [Dracula](https://github.com/dracula/vim)
+  * [Nord Vim](https://github.com/nordtheme/vim)
+  * [Solarized](https://github.com/altercation/vim-colors-solarized)
