@@ -38,6 +38,8 @@ Plug 'davidhalter/jedi-vim'
 " File system explorer
 Plug 'preservim/nerdtree'
 Plug 'preservim/nerdcommenter'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+" Plug 'ryanoasis/vim-devicons'
 
 " Integration
 Plug 'tpope/vim-fugitive'  " Git
@@ -60,6 +62,8 @@ Plug 'morhetz/gruvbox'
 Plug 'joshdick/onedark.vim'
 Plug 'dracula/vim'
 Plug 'arcticicestudio/nord-vim'
+Plug 'bluz71/vim-nightfly-colors', { 'as': 'nightfly' }
+Plug 'bluz71/vim-moonfly-colors', { 'as': 'moonfly' }
 
 call plug#end()
 
@@ -67,10 +71,13 @@ call plug#end()
 hi LineNr cterm=bold ctermfg=DarkGrey ctermbg=NONE
 hi CursorLineNr cterm=bold ctermfg=Green ctermbg=NONE
 
-" NERD Tree & Commenter
+" NERD Tree
 let NERDTreeShowHidden = 1
-let g:NERDSpaceDelims = 1        " Add spaces after comment delimiters by default
-let g:NERDDefaultAlign = 'left'  " Align line-wise comment delimiters flush left instead of following code indentation
+" let g:NERDTreeFileLines = 1
+let g:NERDSpaceDelims = 1
+let g:NERDDefaultAlign = 'left'
+" let g:NERDTreeGitStatusUseNerdFonts = 1
+let g:NERDTreeGitStatusConcealBrackets = 1
 
 " Airline
 let g:airline_theme = 'bubblegum'
@@ -84,11 +91,16 @@ colorscheme gruvbox
 " colorscheme onedark
 " colorscheme dracula
 " colorscheme nord
+" colorscheme nightfly
+" colorscheme moonfly
 
 " solarized
 " let g:solarized_termcolors = 256
 " colorscheme solarized
 
 " ------ Key Mappings / Leader Mappings ------
-" let mapleader = ","
+" let mapleader = "\\"
 " nnoremap <leader>w :w<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+
+" autocmd VimEnter * NERDTree | wincmd p
