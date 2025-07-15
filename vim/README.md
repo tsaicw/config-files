@@ -36,7 +36,10 @@
 * [vim-autoformat](https://github.com/vim-autoformat/vim-autoformat)
 * File system explorer
   * [nerdtree](https://github.com/preservim/nerdtree) - A file system explorer for the Vim editor
-  * [nerdcommenter](https://github.com/preservim/nerdcommenter)
+    * [nerdcommenter](https://github.com/preservim/nerdcommenter)
+    * [nerdtree-git-plugin](https://github.com/Xuyuanp/nerdtree-git-plugin) - Showing Git status flags (optional [nerd-fonts](https://github.com/ryanoasis/nerd-fonts))
+    * [vim-devicons](https://github.com/ryanoasis/vim-devicons) - Add icons to your plugins (require [nerd-fonts](https://github.com/ryanoasis/nerd-fonts))
+    * [vim-nerdtree-syntax-highlight](https://github.com/tiagofumo/vim-nerdtree-syntax-highlight) - Adds syntax for nerdtree on most common file extensions
   * [coc-explorer](https://github.com/weirongxu/coc-explorer)
   * [fern.vim](https://github.com/lambdalisue/vim-fern)
 * Integration
@@ -59,3 +62,5 @@
   * [Dracula](https://github.com/dracula/vim)
   * [Nord Vim](https://github.com/nordtheme/vim)
   * [Solarized](https://github.com/altercation/vim-colors-solarized)
+  * [nightfly](https://github.com/bluz71/vim-nightfly-colors)
+  * [moonfly](https://github.com/bluz71/vim-moonfly-colors)
