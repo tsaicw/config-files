@@ -1,6 +1,7 @@
-# VIM
+# [Vim](https://www.vim.org/)
+* Configuration file - `.vimrc`
 
-## Plugins Manager
+## Plugins Managers
 * [vim-plug](https://junegunn.github.io/vim-plug/)
   * [GitHub](https://github.com/junegunn/vim-plug)
   * **vim-plug** is a minimalist Vim plugin manager
