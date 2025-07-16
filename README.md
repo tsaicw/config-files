@@ -1,4 +1,3 @@
-## Configurations
-
- - git: Configuration for git.
- - vim: Configuration for Vim.
+# Configurations
+* git - Configuration for git
+* vim - Configuration for vim
