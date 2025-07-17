@@ -1,5 +1,6 @@
 # [Vim](https://www.vim.org/)
 * Configuration file - `.vimrc`
+* Color scheme - `.vim/colors`
 
 ## Plugins Managers
 * [vim-plug](https://junegunn.github.io/vim-plug/)
