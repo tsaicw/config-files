@@ -19,6 +19,3 @@ vim.opt.incsearch = true
 -- vim.opt.ignorecase = true
 -- vim.opt.smartcase = true
 vim.opt.foldmethod = "syntax"
-
--- Color scheme
-vim.cmd("colorscheme default")

@@ -39,7 +39,7 @@ Plug 'davidhalter/jedi-vim'
 Plug 'preservim/nerdtree'
 Plug 'preservim/nerdcommenter'
 Plug 'Xuyuanp/nerdtree-git-plugin'
-" Plug 'ryanoasis/vim-devicons'
+Plug 'ryanoasis/vim-devicons'
 
 " Integration
 Plug 'tpope/vim-fugitive'  " Git
@@ -76,7 +76,7 @@ let NERDTreeShowHidden = 1
 " let g:NERDTreeFileLines = 1
 let g:NERDSpaceDelims = 1
 let g:NERDDefaultAlign = 'left'
-" let g:NERDTreeGitStatusUseNerdFonts = 1
+let g:NERDTreeGitStatusUseNerdFonts = 1
 let g:NERDTreeGitStatusConcealBrackets = 1
 
 " Airline
@@ -87,7 +87,12 @@ let g:airline#extensions#tabline#enabled = 1
 "let g:airline#extensions#tabline#left_alt_sep = '|'
 
 " Color scheme
+" gruvbox
+let g:gruvbox_contrast_dark = 'hard' " 'hard', 'medium', 'soft'
+let g:gruvbox_italic = 1
+let g:gruvbox_bold = 1
 colorscheme gruvbox
+
 " colorscheme onedark
 " colorscheme dracula
 " colorscheme nord
