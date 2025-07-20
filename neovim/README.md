@@ -17,14 +17,19 @@
         https://github.com/folke/lazy.nvim.git \
         ~/.local/share/nvim/lazy/lazy.nvim
     ```
-  * Plugins management
-    ```bash
-    :Lazy help  # Show the help page
-    :Lazy show  # Show the loaded plugins
-    ```
+  * [Commands](https://lazy.folke.io/usage#-commands)
+    * Toggle this help page
+      ```bash
+      :Lazy help
+      ```
+    * Show the loaded plugins
+      ```bash
+      :Lazy show
+      ```
 
 ## Plugins
 * File system explorer
   * [nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua) - A file explorer tree for neovim
   * [neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim) - Manage the file system and other tree like structures
 * [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) - A highly extendable fuzzy finder over lists
+* [Comment.nvim](https://github.com/numToStr/Comment.nvim) - Smart and Powerful commenting plugin
