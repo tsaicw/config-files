@@ -39,3 +39,10 @@ require("lazy").setup({
 
 -- Color scheme
 vim.cmd.colorscheme("gruvbox")
+
+-- Setup lualine.nvim
+require("lualine").setup({
+  options = {
+    theme = "onedark"
+  }
+})

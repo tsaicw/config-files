@@ -33,3 +33,6 @@
   * [neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim) - Manage the file system and other tree like structures
 * [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) - A highly extendable fuzzy finder over lists
 * [Comment.nvim](https://github.com/numToStr/Comment.nvim) - Smart and Powerful commenting plugin
+* Statusline
+  * [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim) - A blazing fast and easy to configure Neovim statusline written in Lua
+  * [galaxyline.nvim](https://github.com/nvimdev/galaxyline.nvim) - A light-weight and super fast statusline plugin
