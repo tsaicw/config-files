@@ -31,7 +31,7 @@
 
 ## Plugins
 * [coc.nvim](https://github.com/neoclide/coc.nvim) - Make your Vim/Neovim as smart as VS Code
-* [ale](https://github.com/dense-analysis/ale) - Asynchronous Lint Engine
+* [ALE](https://github.com/dense-analysis/ale) - Asynchronous Lint Engine ([Supported Languages and Tools](https://github.com/dense-analysis/ale/blob/master/supported-tools.md))
 * [vim-polyglot](https://github.com/sheerun/vim-polyglot)
 * [jedi-vim](https://github.com/davidhalter/jedi-vim) - Awesome Python autocompletion
 * [Black](https://github.com/psf/black) - The uncompromising Python code formatter

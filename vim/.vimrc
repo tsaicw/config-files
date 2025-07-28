@@ -29,7 +29,7 @@ call plug#begin()
 " let vim-plug manage itself, required
 Plug 'junegunn/vim-plug'
 
-" Plug 'dense-analysis/ale'
+Plug 'dense-analysis/ale'
 " Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'sheerun/vim-polyglot'
 " Plug 'psf/black', { 'do': ':BlackInstall' }
@@ -71,6 +71,16 @@ call plug#end()
 " ------Plugin Specific Settings ------
 hi LineNr cterm=bold ctermfg=DarkGrey ctermbg=NONE
 hi CursorLineNr cterm=bold ctermfg=Green ctermbg=NONE
+
+" ALE
+let g:ale_linters_explicit = 1
+let g:ale_linters = {
+\   'python': ['flake8'],
+\}
+let g:ale_fixers = {
+  \ 'python': ['autoimport', 'black', 'isort'],
+\}
+" let g:ale_fix_on_save = 1
 
 " NERD Tree
 let NERDTreeShowHidden = 1
