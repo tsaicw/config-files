@@ -75,12 +75,14 @@ hi CursorLineNr cterm=bold ctermfg=Green ctermbg=NONE
 " ALE
 let g:ale_linters_explicit = 1
 let g:ale_linters = {
-\   'python': ['flake8'],
+\   'python': ['flake8', 'mypy'],
+\   'javascript': ['eslint'],
 \}
 let g:ale_fixers = {
-  \ 'python': ['autoimport', 'black', 'isort'],
+\ 'python': ['autoimport', 'black', 'isort'],
 \}
 " let g:ale_fix_on_save = 1
+let g:ale_python_mypy_options = '--check-untyped-defs'
 
 " NERD Tree
 let NERDTreeShowHidden = 1
