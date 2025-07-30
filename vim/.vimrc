@@ -29,10 +29,11 @@ call plug#begin()
 " let vim-plug manage itself, required
 Plug 'junegunn/vim-plug'
 
-Plug 'dense-analysis/ale'
+" Vim >= 9.0.0438 or Neovim >= 0.8.0
 " Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+Plug 'dense-analysis/ale'
 Plug 'sheerun/vim-polyglot'
-" Plug 'psf/black', { 'do': ':BlackInstall' }
 Plug 'davidhalter/jedi-vim'
 
 " File system explorer
@@ -74,6 +75,9 @@ hi CursorLineNr cterm=bold ctermfg=Green ctermbg=NONE
 
 " ALE
 let g:ale_linters_explicit = 1
+let g:ale_lint_on_text_changed = 'normal'
+let g:ale_lint_on_insert_leave = 1
+let g:ale_lint_on_filetype = 1
 let g:ale_linters = {
 \   'python': ['flake8', 'mypy'],
 \   'javascript': ['eslint'],

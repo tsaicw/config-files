@@ -30,12 +30,11 @@
   * **Dein.vim** is a dark powered Vim/Neovim plugin manager
 
 ## Plugins
-* [coc.nvim](https://github.com/neoclide/coc.nvim) - Make your Vim/Neovim as smart as VS Code
+* [coc.nvim](https://github.com/neoclide/coc.nvim) - Make your Vim/Neovim as smart as VS Code (LSP client)
 * [ALE](https://github.com/dense-analysis/ale) - Asynchronous Lint Engine ([Supported Languages and Tools](https://github.com/dense-analysis/ale/blob/master/supported-tools.md))
-* [vim-polyglot](https://github.com/sheerun/vim-polyglot)
+* [vim-autoformat](https://github.com/vim-autoformat/vim-autoformat) - Provide easy code formatting
+* [vim-polyglot](https://github.com/sheerun/vim-polyglot) - A solid language pack for Vim
 * [jedi-vim](https://github.com/davidhalter/jedi-vim) - Awesome Python autocompletion
-* [Black](https://github.com/psf/black) - The uncompromising Python code formatter
-* [vim-autoformat](https://github.com/vim-autoformat/vim-autoformat)
 * File system explorer
   * [nerdtree](https://github.com/preservim/nerdtree) - A file system explorer for the Vim editor
     * [nerdcommenter](https://github.com/preservim/nerdcommenter)
