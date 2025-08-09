@@ -34,7 +34,6 @@ Plug 'junegunn/vim-plug'
 
 Plug 'dense-analysis/ale'
 Plug 'sheerun/vim-polyglot'
-Plug 'davidhalter/jedi-vim'
 
 " File system explorer
 Plug 'preservim/nerdtree'
@@ -45,6 +44,7 @@ Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
 " Integration
 Plug 'tpope/vim-fugitive'  " Git
+Plug 'davidhalter/jedi-vim'
 "Plug 'derekwyatt/vim-scala'
 "Plug 'fatih/vim-go'
 Plug 'pearofducks/ansible-vim'
@@ -74,6 +74,7 @@ hi LineNr cterm=bold ctermfg=DarkGrey ctermbg=NONE
 hi CursorLineNr cterm=bold ctermfg=Green ctermbg=NONE
 
 " ALE
+let g:ale_completion_enabled = v:false
 let g:ale_linters_explicit = 1
 let g:ale_lint_on_text_changed = 'normal'
 let g:ale_lint_on_insert_leave = 1

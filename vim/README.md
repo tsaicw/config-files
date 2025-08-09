@@ -34,7 +34,6 @@
 * [ALE](https://github.com/dense-analysis/ale) - Asynchronous Lint Engine ([Supported Languages and Tools](https://github.com/dense-analysis/ale/blob/master/supported-tools.md))
 * [vim-autoformat](https://github.com/vim-autoformat/vim-autoformat) - Provide easy code formatting
 * [vim-polyglot](https://github.com/sheerun/vim-polyglot) - A solid language pack for Vim
-* [jedi-vim](https://github.com/davidhalter/jedi-vim) - Awesome Python autocompletion
 * File system explorer
   * [nerdtree](https://github.com/preservim/nerdtree) - A file system explorer for the Vim editor
     * [nerdcommenter](https://github.com/preservim/nerdcommenter)
@@ -45,6 +44,7 @@
   * [fern.vim](https://github.com/lambdalisue/vim-fern)
 * Integration
   * [vim-fugitive](https://github.com/tpope/vim-fugitive) -  Rhe premier Vim plugin for Git
+  * [jedi-vim](https://github.com/davidhalter/jedi-vim) - Awesome Python autocompletion
   * [vim-go](https://github.com/fatih/vim-go) - Go language support
   * [ansible-vim](https://github.com/pearofducks/ansible-vim) - Syntax plugin for Ansible 2.x
   * [vim-scala](https://github.com/derekwyatt/vim-scala)
