@@ -48,6 +48,7 @@
   * [vim-go](https://github.com/fatih/vim-go) - Go language support
   * [ansible-vim](https://github.com/pearofducks/ansible-vim) - Syntax plugin for Ansible 2.x
   * [vim-scala](https://github.com/derekwyatt/vim-scala)
+  * [tagbar](https://github.com/preservim/tagbar) -Provides an easy way to browse the tags of the current file and get an overview of its structure (need `universal-ctags` installed)
 * Statusline
   * [vim-airline](https://github.com/vim-airline/vim-airline) - Lean & mean status/tabline for vim that's light as air
   * [vim-airline-themes](https://github.com/vim-airline/vim-airline-themes) - The official theme repository for vim-airline

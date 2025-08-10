@@ -48,6 +48,7 @@ Plug 'davidhalter/jedi-vim'
 "Plug 'derekwyatt/vim-scala'
 "Plug 'fatih/vim-go'
 Plug 'pearofducks/ansible-vim'
+Plug 'preservim/tagbar'
 
 " Lean & mean status/tabline
 Plug 'vim-airline/vim-airline'
@@ -124,6 +125,10 @@ colorscheme gruvbox
 " ------ Key Mappings / Leader Mappings ------
 " let mapleader = "\\"
 " nnoremap <leader>w :w<CR>
-nnoremap <C-t> :NERDTreeToggle<CR>
 
+" NERDTree
+nnoremap <leader>tr :NERDTreeToggle<CR>
 " autocmd VimEnter * NERDTree | wincmd p
+
+" Tagbar
+nnoremap <leader>tb :TagbarToggle<CR>
