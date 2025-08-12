@@ -36,7 +36,7 @@
 * [vim-polyglot](https://github.com/sheerun/vim-polyglot) - A solid language pack for Vim
 * File system explorer
   * [nerdtree](https://github.com/preservim/nerdtree) - A file system explorer for the Vim editor
-    * [nerdcommenter](https://github.com/preservim/nerdcommenter)
+    * [nerdcommenter](https://github.com/preservim/nerdcommenter) - Vim plugin for intensely nerdy commenting powers
     * [nerdtree-git-plugin](https://github.com/Xuyuanp/nerdtree-git-plugin) - Showing Git status flags (optional [nerd-fonts](https://github.com/ryanoasis/nerd-fonts))
     * [vim-devicons](https://github.com/ryanoasis/vim-devicons) - Add icons to your plugins (require [nerd-fonts](https://github.com/ryanoasis/nerd-fonts))
     * [vim-nerdtree-syntax-highlight](https://github.com/tiagofumo/vim-nerdtree-syntax-highlight) - Adds syntax for nerdtree on most common file extensions
@@ -55,9 +55,12 @@
   * [lightline.vim](https://github.com/itchyny/lightline.vim) - A light and configurable statusline/tabline
 * Miscellaneous
   * [auto-pairs](https://github.com/jiangmiao/auto-pairs) - Insert or delete brackets, parens, quotes in pair
-  * [vim-dirdiff](https://github.com/will133/vim-dirdiff) - DirDiff plugin for Vim
+  * [vim-dirdiff](https://github.com/will133/vim-dirdiff) - Vim plugin to diff two directories
+    ```bash
+    vim +"DirDiff <folder1> <folder2>"
+    ```
   * [vim-visual-multi](https://github.com/mg979/vim-visual-multi) - Multiple cursors
-  * [vim-terminal-help](https://github.com/skywind3000/vim-terminal-help)
+  * [vim-terminal-help](https://github.com/skywind3000/vim-terminal-help) - Small changes make vim/nvim's internal terminal great again!!
 * Color schemes
   * [gruvbox](https://github.com/morhetz/gruvbox)
   * [onedark.vim](https://github.com/joshdick/onedark.vim)
