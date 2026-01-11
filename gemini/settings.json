@@ -1,0 +1,38 @@
+{
+  "model": {
+    "name": "gemini-3-pro-preview"
+  },
+  "mcpServers": {
+    "github": {
+      "httpUrl": "https://api.githubcopilot.com/mcp/",
+      "trust": true,
+      "headers": {
+        "Authorization": "Bearer "
+      },
+      "timeout": 5000
+    }
+  },
+  "general": {
+    "preferredEditor": "vim",
+    "vimMode": false,
+    "previewFeatures": true
+  },
+  "security": {
+    "auth": {
+      "selectedType": "oauth-personal"
+    }
+  },
+  "tools": {
+    "shell": {
+      "enableInteractiveShell": true,
+      "showColor": true,
+      "pager": "less"
+    }
+  },
+  "context": {
+    "fileName": [
+      "AGENTS.md",
+      "GEMINI.md"
+    ]
+  }
+}
