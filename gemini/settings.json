@@ -1,6 +1,6 @@
 {
   "model": {
-    "name": "gemini-3-pro-preview"
+    "name": "gemini-3.1-pro"
   },
   "mcpServers": {
     "github": {
@@ -25,7 +25,12 @@
   "general": {
     "preferredEditor": "vim",
     "vimMode": false,
-    "previewFeatures": true
+    "previewFeatures": true,
+    "sessionRetention": {
+      "warningAcknowledged": true,
+      "enabled": true,
+      "maxAge": "30d"
+    }
   },
   "security": {
     "auth": {
