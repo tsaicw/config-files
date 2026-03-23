@@ -1,6 +1,7 @@
 {
   "model": {
-    "name": "gemini-3.1-pro-preview"
+    "mode": "auto",
+    "version": 3
   },
   "mcpServers": {
     "github": {
